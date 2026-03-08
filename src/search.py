@@ -1,9 +1,9 @@
 import numpy as np
 
-from embeddings import embed_query
-from vector_store import VectorStore
-from semantic_cache import SemanticCache
-from clustering import FuzzyClusterer
+from src.embeddings import embed_query
+from src.vector_store import VectorStore
+from src.cache import SemanticCache
+from src.clustering import FuzzyClusterer
 
 
 class SemanticSearchEngine:
